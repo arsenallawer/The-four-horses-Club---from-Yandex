@@ -358,13 +358,13 @@ b {
   padding-top: 15px;
   padding-bottom: 25px;
   min-height: 579px;
-  background: url("/img/bg-img1.png") 70% no-repeat;
+  background: url("../img/bg-img1.png") 70% no-repeat;
   background-size: cover;
 }
 @media (max-width: 576px) {
   .header__container {
     min-height: 773px;
-    background: url("/img/bg-img2.png") 0% 0% no-repeat;
+    background: url("../img/bg-img2.png") 0% 0% no-repeat;
   }
 }
 
@@ -824,7 +824,7 @@ b {
 .stages__container-item {
   position: relative;
   padding: 21px 22px 15px 63px;
-  background: url("/img/wall.jpg");
+  background: url("../img/wall.jpg");
   line-height: 1.6vmin;
   letter-spacing: 1.2px;
 }
@@ -856,7 +856,7 @@ b {
   height: 13vmin;
   top: -57%;
   right: -5%;
-  background: url("/img/plane.png") no-repeat;
+  background: url("../img/plane.png") no-repeat;
   background-size: contain;
 }
 @media (max-width: 1024px) {
@@ -912,7 +912,7 @@ b {
   position: relative;
   padding: 15.9vmin 5vmin 5vmin 18.7vmin;
   padding-bottom: 15px;
-  background: url("/img/wall.jpg");
+  background: url("../img/wall.jpg");
   line-height: 5.6vmin;
   letter-spacing: 0.8px;
 }
@@ -1045,7 +1045,7 @@ b {
   .players__title-options {
     position: absolute;
     bottom: -15vmin;
-    left: 50%;
+    left: 46%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
