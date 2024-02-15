@@ -81,9 +81,9 @@ const swiper = new swiper__WEBPACK_IMPORTED_MODULE_1__["default"](".players__swi
   speed: 700,
   // spaceBetween: 40,
   loop: true,
-  // autoplay: {
-  //   delay: 4000,
-  // },
+  autoplay: {
+    delay: 4000
+  },
   pagination: {
     el: ".players__pagination",
     type: "custom",
